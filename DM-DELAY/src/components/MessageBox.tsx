@@ -27,8 +27,8 @@ const MessageBox = () => {
     setIsSending(false)
    }
   return (
-    <div className='max-w-md mx-auto mt-20 p-6 border rounded-lg shadow-sm bg-white space-y-4'>
-      <h2 className='text-2xl font-bold text-gray-800'>Dm Delay Button</h2>
+    <div className='w-90  mx-auto mt-20 p-6 border rounded-lg shadow-lg bg-white space-y-4'>
+      <h2 className='ml-15 text-2xl font-bold text-gray-800'>Dm Delay Button</h2>
 
       <Textarea placeholder="Type your message..." value={message} onChange={(e)=> setMessage(e.target.value)}/>
 
